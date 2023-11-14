@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Aprendo música colombiana',
-      theme: AppTheme(selectedColor: 2).getTheme(),
+      theme: AppTheme(selectedColor: 4).getTheme(),
       home: const MyHomePage(title: 'Aprendo música colombiana'),
     );
   }
