@@ -1,0 +1,12 @@
+github.comFredyRN.fr_iempb.app-debug-0 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/android/app/src/debug/res
+github.comFredyRN.fr_iempb.app-main-1 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/android/app/src/main/res
+github.comFredyRN.fr_iempb.app-pngs-2 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/generated/res/pngs/debug
+github.comFredyRN.fr_iempb.app-resValues-3 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/generated/res/resValues/debug
+github.comFredyRN.fr_iempb.app-rs-4 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/generated/res/rs/debug
+github.comFredyRN.fr_iempb.app-mergeDebugResources-5 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+github.comFredyRN.fr_iempb.app-mergeDebugResources-6 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+github.comFredyRN.fr_iempb.app-merged_res-7 /home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/intermediates/merged_res/debug
+github.comFredyRN.fr_iempb.app-jetified-window-1.0.0-beta04-8 /root/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/res
+github.comFredyRN.fr_iempb.app-jetified-annotation-experimental-1.1.0-9 /root/.gradle/caches/transforms-3/6c0c163cc77ae6c91f9f7dfcd179c29c/transformed/jetified-annotation-experimental-1.1.0/res
+github.comFredyRN.fr_iempb.app-core-1.6.0-10 /root/.gradle/caches/transforms-3/7e9df2ac2213a6bd3cef0f2f27870d79/transformed/core-1.6.0/res
+github.comFredyRN.fr_iempb.app-jetified-window-java-1.0.0-beta04-11 /root/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/res

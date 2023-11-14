@@ -1,0 +1,4 @@
+#Sun Aug 06 05:36:38 COT 2023
+base.0=/home/fredy-rodriguez/.projects/Software/Clients/Alberly/fr_iempb/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
