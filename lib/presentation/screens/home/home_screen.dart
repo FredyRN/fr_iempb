@@ -12,6 +12,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    Color themeColor = Theme.of(context).primaryColor;
     return Scaffold(
       body: Form(
         child: Center(
@@ -24,7 +25,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 5),
                 child: TextFormField(
                   decoration: InputDecoration(
                     border: const UnderlineInputBorder(),
@@ -33,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     prefixIconColor: MaterialStateColor.resolveWith(
                         (Set<MaterialState> states) {
                       if (states.contains(MaterialState.focused)) {
-                        return Theme.of(context).primaryColor;
+                        return themeColor;
                       }
                       if (states.contains(MaterialState.error)) {
                         return Colors.red;
@@ -51,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Padding(
                 padding:
-                    const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 5),
                 child: TextFormField(
                   obscureText: true,
                   obscuringCharacter: '*',
@@ -62,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     prefixIconColor: MaterialStateColor.resolveWith(
                         (Set<MaterialState> states) {
                       if (states.contains(MaterialState.focused)) {
-                        return Theme.of(context).primaryColor;
+                        return themeColor;
                       }
                       if (states.contains(MaterialState.error)) {
                         return Colors.red;
@@ -79,10 +80,19 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
               Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 1, vertical: 25),
-                child: FilledButton(
-                    onPressed: () {}, child: const Text('Iniciar sesión')),
+                padding: const EdgeInsets.symmetric(horizontal: 1, vertical: 1),
+                child: TextButton(
+                  onPressed: () {},
+                  child: const Text('¿Olvidó la contraseña?'),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 1, vertical: 5),
+                child: FilledButton.icon(
+                  icon: const Icon(Icons.lyrics),
+                  label: const Text('INICIAR'),
+                  onPressed: () {},
+                ),
               )
             ],
           ),
